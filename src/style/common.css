@@ -1,0 +1,49 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+:root{
+    --background: url("../assets/home/background-home-desktop.jpg");
+}
+/* Universal Selector */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bellefair', serif;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    background-color: #0B0D17;
+    background-image: var(--background);
+    background-size: cover;
+    color: white;
+    margin-left: 8vw;
+}
+
+.subheading{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    /* identical to box height */
+    letter-spacing: 4.725px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.subheading span{
+    font-weight: 700;
+    mix-blend-mode: normal;
+    opacity: 0.25;
+    margin-right: 20px;
+}
+.container{
+    margin-left: 4vw;
+    margin-top: 50px;
+}

@@ -1,0 +1,49 @@
+.technology{
+    display: flex;
+    align-items: center;
+}
+.pagination-tech{
+    display: flex;
+    flex-direction: column;
+}
+.pagination-tech span.active-dot{
+    background-color: white;
+    color: #0B0D17;
+    opacity: 1;
+
+}
+
+.pagination-tech span{
+    border-radius: 50%;
+    background-color: transparent;
+    width: fit-content;
+    padding: 15px 25px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 37px;
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 2px;
+    color: white;
+    border: 1px solid #757474;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.technology-text{
+    margin-left: 100px;
+}
+.technology-text span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+    text-transform: uppercase;
+}
+.tech-img{
+    min-height: 60vh;
+    max-height: 60vh;
+    width: 100vw;
+}

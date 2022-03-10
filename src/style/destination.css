@@ -1,0 +1,68 @@
+.destination-container img{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.destination{
+    display: flex;
+    align-items: center;
+}
+.destination-names{
+    position: relative;
+    left: 50%;
+}
+.destination-names span{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #D0D6F9;
+    margin: 0 20px;
+    text-transform: uppercase;
+}
+.destination-names span:hover{
+    padding-bottom: 15px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.destination-text{
+    margin-left: 15vw;
+}
+.destination h3{
+    font-weight: 400;
+    font-size: 100px;
+    line-height: 115px;
+    text-transform: uppercase;
+}
+p{
+    font-family: 'Barlow' , sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    /* or 178% */
+    color: #D0D6F9;
+    width: 60%;
+}
+.destination-info{
+    display: flex;
+    gap: 40px;
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+h4{
+    font-family: 'Barlow Condensed';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    letter-spacing: 2.3625px;
+    color: #D0D6F9;
+    margin: 10px 0;
+}
+.destination-info span{
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    /* identical to box height */
+}

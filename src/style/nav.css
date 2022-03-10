@@ -1,0 +1,39 @@
+nav{
+    padding: 40px 0;
+    display: flex;
+    align-items: center;
+}
+.nav-menu{
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(81.5485px);
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    padding: 30px 20px 30px 80px;
+    width: 100%;
+}
+.nav-item a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
+    color: #FFFFFF;
+    font-family: 'Barlow Condensed', sans-serif;
+    text-transform: uppercase;
+}
+.nav-item a:hover{
+    padding-bottom: 28px;
+    border-bottom: 3px solid white;
+}
+.nav-num{
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    margin-right: 8px;
+}
+hr{
+    width: 90vw;
+    height: 1px;
+    margin-left: 20px;
+    border: 1px solid #979797;
+    opacity: 0.25;
+}
