@@ -1,16 +1,29 @@
+/* =========== Navigation Bar ========= */
 nav{
-    padding: 40px 0;
+    padding: 40px 20px 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .nav-menu{
     background: rgba(255, 255, 255, 0.04);
     backdrop-filter: blur(81.5485px);
     display: flex;
-    gap: 30px;
-    align-items: center;
-    padding: 30px 20px 30px 80px;
-    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+    padding: 140px 0px 30px 70px;
+    align-items: start;
+    width: 80%;
+    position: absolute;
+    min-height: 100vh;
+    top: 0px;
+    left: -2000px;
+    transition: 0.4s right ease-in-out;
+    z-index: 2;
+    min-width: 290px;
+}
+.nav-menu.active{
+    left: 20vw;
 }
 .nav-item a{
     font-weight: 400;
@@ -21,8 +34,9 @@ nav{
     font-family: 'Barlow Condensed', sans-serif;
     text-transform: uppercase;
 }
-.nav-item a:hover{
-    padding-bottom: 28px;
+.nav-item a:hover,
+.nav-item a.active {
+    padding-bottom: 10px;
     border-bottom: 3px solid white;
 }
 .nav-num{
@@ -30,10 +44,28 @@ nav{
     font-weight: 700;
     margin-right: 8px;
 }
+
+/* Line */
 hr{
     width: 90vw;
     height: 1px;
     margin-left: 20px;
     border: 1px solid #979797;
     opacity: 0.25;
+    display: none;
+}
+
+/* Hamburger */
+.hamburger{
+    background-image: url("../assets/shared/icon-hamburger.svg");
+    width: 30px;
+    height: 21px;
+    cursor: pointer;
+}
+.hamburger.active{
+    background-image: url("../assets/shared/icon-close.svg");
+    width: 20px;
+    height: 21px;
+    position: relative;
+    z-index: 2;
 }

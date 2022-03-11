@@ -1,18 +1,26 @@
+/* ======== Technology ========== */
 .technology{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    padding-bottom: 40px;
 }
+
+/* Pagination */
 .pagination-tech{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    order: 1;
+    gap: 20px;
+}
+.pagination-tech span:hover{
+    border: 1px solid #FFFFFF;
 }
 .pagination-tech span.active-dot{
     background-color: white;
     color: #0B0D17;
     opacity: 1;
-
 }
-
 .pagination-tech span{
     border-radius: 50%;
     background-color: transparent;
@@ -21,7 +29,6 @@
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-    /* identical to box height */
     text-align: center;
     letter-spacing: 2px;
     color: white;
@@ -30,10 +37,12 @@
     cursor: pointer;
 }
 
+/* Technology Text */
 .technology-text{
-    margin-left: 100px;
+    order: 2;
 }
 .technology-text span{
+    display: inline-block;
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -41,9 +50,17 @@
     letter-spacing: 2.7px;
     color: #D0D6F9;
     text-transform: uppercase;
+    margin: 30px 0 0;
+}
+
+/* Image */
+picture{
+    order: 0;
 }
 .tech-img{
-    min-height: 60vh;
-    max-height: 60vh;
-    width: 100vw;
+    min-height: 40vh;
+    max-height: 40vh;
+    margin-left: 0;
+    width: 100%;
+    margin: 30px 0;
 }

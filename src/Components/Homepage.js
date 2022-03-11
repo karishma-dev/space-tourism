@@ -1,14 +1,18 @@
+// Import Statement
 import "../style/homepage.css";
+import background from "../Components/background";
 
 // Homepage Component
 export default function Homepage(){
-    window.onload = document.documentElement.style.setProperty(
-        "--background",
-        'url("../assets/home/background-home-desktop.jpg")'
-    );
+
+    // Change Background onload
+    window.addEventListener("load", background("homepage"))
 
     return (
+        // Homepage
         <div className="homepage">
+
+            {/* Homepage Text */}
             <div className="home-text">
                 <span id="heading">
                     So, You want to travel to
@@ -22,10 +26,15 @@ export default function Homepage(){
                     world experience.
                 </p>
             </div>
+
+            {/* Homepage Image */}
             <div className="header-img"></div>
+
+            {/* Homepage Button */}
             <button className="explore-btn">
                 Explore
             </button>
+        
         </div>
     );
 }

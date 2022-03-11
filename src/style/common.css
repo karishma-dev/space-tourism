@@ -1,17 +1,23 @@
+/* ======== Common Styles ======= */
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
 
+/* Background Variables */
 :root{
-    --background: url("../assets/home/background-home-desktop.jpg");
+    --background-mobile: "";
+    --background-tablet: "";
+    --background-desktop: "";
 }
+
 /* Universal Selector */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Bellefair', serif;
+    text-align: center;
 }
 li{
     list-style: none;
@@ -19,20 +25,38 @@ li{
 a{
     text-decoration: none;
 }
+
+/* Body */
 body{
     background-color: #0B0D17;
-    background-image: var(--background);
-    background-size: cover;
     color: white;
-    margin-left: 8vw;
+    padding: 0 20px;
+    min-width: 290px;
 }
 
+/* Background */
+#background{
+    background-color: #0B0D17;
+    background-image: var(--background-mobile);
+    background-size: cover;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: -1;
+    transform: rotate(0deg);
+    min-width: 290px;
+}
+
+/* Subheading */
 .subheading{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 400;
     font-size: 28px;
     line-height: 34px;
-    /* identical to box height */
     letter-spacing: 4.725px;
     text-transform: uppercase;
     color: #FFFFFF;
@@ -43,7 +67,11 @@ body{
     opacity: 0.25;
     margin-right: 20px;
 }
+
+/* Container */
 .container{
     margin-left: 4vw;
     margin-top: 50px;
 }
+
+@import url("./media.css");

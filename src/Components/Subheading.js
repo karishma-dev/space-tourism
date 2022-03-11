@@ -1,4 +1,6 @@
+// Subheading Component
 export default function Subheading({number, heading}){
+
     return (
         <h2 className="subheading">
             <span>
@@ -7,4 +9,5 @@ export default function Subheading({number, heading}){
             {heading}
         </h2>
     );
+    
 }

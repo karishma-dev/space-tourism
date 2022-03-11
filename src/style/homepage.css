@@ -1,45 +1,47 @@
+/* ========= Homepage ========== */
 .home-text{
-    margin-top: 150px;
     margin-left: 3vw;
+    margin-top: 80px;
 }
 #heading{
     text-transform: uppercase;
     font-weight: 400;
-    font-size: 28px;
-    line-height: 34px;
-    /* identical to box height */
-    letter-spacing: 4.725px;
     color: #D0D6F9;
     font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 2.7px;
 }
 h1{
     font-weight: 400;
-    font-size: 150px;
-    line-height: 172px;
+    font-size: 80px;
+    line-height: 100px;
     text-transform: uppercase;
+    margin: 20px auto 10px;
 }
 .home-text p{
     font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    /* or 178% */
     color: #D0D6F9;
-    width: 30%;
+    width: 90%;
+    font-size: 15px;
+    line-height: 25px;
     font-family: 'Barlow', sans-serif;
+    margin: 10px auto;
 }
 .explore-btn{
     font-weight: 400;
     font-size: 32px;
     line-height: 37px;
-    /* identical to box height */
     letter-spacing: 2px;
     color: #0B0D17;
     border-radius: 50%;
-    padding: 100px 50px;
+    padding: 80px 30px;
     border: 0;
     background-color: white;
-    position: absolute;
-    left: 70vw;
-    top: 50%;
     text-transform: uppercase;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin: 50px 0 30px;
 }
+

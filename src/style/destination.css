@@ -1,14 +1,21 @@
+/* ======== Destination ========= */
 .destination-container img{
-    margin-left: 50px;
-    margin-top: 30px;
+    margin: 0 auto;
+    width: 300px;
 }
 .destination{
     display: flex;
     align-items: center;
+    flex-direction: column;
 }
+
+/* Destination Names */
 .destination-names{
     position: relative;
     left: 50%;
+    transform: translate(-50%, 50%);
+    margin: 30px 0 0;
+    top: 50px;
 }
 .destination-names span{
     font-family: 'Barlow Condensed', sans-serif;
@@ -19,41 +26,47 @@
     margin: 0 20px;
     text-transform: uppercase;
 }
-.destination-names span:hover{
+.destination-names span:hover, 
+.destination-names span.active{
     padding-bottom: 15px;
     border-bottom: 2px solid white;
     color: white;
 }
-.destination-text{
-    margin-left: 15vw;
+.destination-names span:hover{
+    opacity: 0.4;
 }
+/* Destination Text */
 .destination h3{
     font-weight: 400;
-    font-size: 100px;
-    line-height: 115px;
     text-transform: uppercase;
+    font-size: 56px;
+    line-height: 64px;
+    margin: 100px auto 15px;
 }
 p{
     font-family: 'Barlow' , sans-serif;
     font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    /* or 178% */
+    font-size: 16px;
+    line-height: 28px;
     color: #D0D6F9;
-    width: 60%;
+    width: 90%;
+    margin: 0 auto;
 }
+
+/* Destination Information */
 .destination-info{
     display: flex;
-    gap: 40px;
+    gap: 20px;
     text-transform: uppercase;
-    margin: 30px 0;
+    justify-content: center;
+    flex-direction: column;
+    margin: 50px 0;
 }
 h4{
     font-family: 'Barlow Condensed';
     font-weight: 400;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
     letter-spacing: 2.3625px;
     color: #D0D6F9;
     margin: 10px 0;
@@ -64,5 +77,4 @@ h4{
     font-weight: 400;
     font-size: 28px;
     line-height: 32px;
-    /* identical to box height */
 }

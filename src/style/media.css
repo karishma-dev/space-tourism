@@ -1,0 +1,220 @@
+/* ========== Media Queries =========== */
+@media (min-width: 600px) {
+
+    /* Background */
+    #background{
+        background-image: var(--background-tablet);
+        background-size: 100% 100vh;
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        width: 100%;
+        min-height: 100vh;
+    }
+
+    /* =========== Homepage ========== */
+    .home-text{
+        margin-top: 30px;
+    }
+    #heading{
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 3.375px;
+    }
+    h1{
+        font-size: 150px;
+        line-height: 150px;
+    }
+    .home-text p{
+        font-size: 16px;
+        line-height: 28px;
+        max-width: 500px;
+    }
+
+    /* =========== Destination =========== */
+    .destination-container img{
+        margin-top: 30px;
+        width: 400px;
+    }
+    .subheading{
+        text-align: start;
+    }
+    p{
+        max-width: 550px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .destination-info{
+        gap: 40px;
+        justify-content: center;
+        flex-direction: row;
+        margin: 50px 0;
+    }
+    .destination-names{
+        top: 50px;
+    }
+
+    /* ======== Crew ========= */
+    .crew-text span{
+        font-size: 32px;
+        line-height: 37px;
+        padding: 40px 0 0;
+    }
+    h3{
+        font-size: 56px;
+        line-height: 64px;
+    }
+
+}
+@media (min-width: 700px) {
+    nav{
+        padding: 40px 0px;
+    }
+    .nav-menu{
+        background: rgba(255, 255, 255, 0.04);
+        backdrop-filter: blur(81.5485px);
+        display: flex;
+        gap: 30px;
+        align-items: center;
+        flex-direction: row;
+        padding: 30px 50px 30px 80px;
+        width: fit-content;
+        min-height: fit-content;
+        position: static;
+        min-width: fit-content
+    }
+    .nav-item a:hover,
+    .nav-item a.active {
+        padding-bottom: 28px;
+        border-bottom: 3px solid white;
+    }
+    hr{
+        display: block;
+    }
+    .hamburger{
+        display: none;
+    }
+
+}
+@media (min-width: 1200px) {
+
+    /* ========= Common Style ======== */
+    *{
+        text-align: start;
+    }
+    #background{
+        background-image: var(--background-desktop);
+        background-size: cover;
+        background-position: right;
+        width: 100%;
+        min-height: 100vh;
+        transform: rotate(0);
+        top: 0;
+        right: 0;
+    }
+    body{
+        margin-left: 8vw;
+    }
+
+    /* =========== Homepage ========== */
+    .home-text{
+        margin-top: 150px;
+    }
+    #heading{
+        font-size: 28px;
+        line-height: 34px;
+        letter-spacing: 4.725px;
+    }
+    h1{
+        line-height: 172px;
+        margin: 0;
+    }
+    .home-text p{
+        font-size: 18px;
+        line-height: 32px;
+        width: 30%;
+        max-width: 30%;
+        margin: 0;
+    }
+    .explore-btn{
+        padding: 100px 50px;
+        position: absolute;
+        left: 70vw;
+        top: 50%;
+    }
+
+    /* =========== Destination =========== */
+    .destination-container img{
+        margin: 30px 0;
+        width: 470px;
+    }
+    .destination{
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 17vw;
+    }
+    .destination-names{
+        top: -40px;
+        margin: 0;
+    }
+    .destination h3{
+        font-size: 100px;
+        line-height: 115px;
+        margin: 10px 0 15px;
+    }
+    p{
+        width: 60%;
+        margin: 0;
+        max-width: 60%;
+    }
+    .destination-info{
+        width: fit-content;
+        justify-content: space-between;
+        gap: 50px;
+    }
+
+    /* ======== Crew ========= */
+    .crew-text span{
+        padding: 0;
+    }
+    .crew{
+        flex-direction: row;
+    }
+    .crew-text{
+        width: 50%;
+    }
+    .crew img{
+        margin-top: -100px;
+        min-height: 80vh;
+        max-height: 80vh;
+    }
+    .pagination-crew{
+        margin-top: -200px;
+    }
+    .pagination-crew span{
+        font-size: 10rem;
+    }
+
+    /* ========= Technology ========== */
+    .technology{
+        flex-direction: row;
+        padding-bottom: 0px;
+    }
+    .pagination-tech{
+        flex-direction: column;
+        order: 0;
+        gap: 0px;
+    }
+    .technology-text{
+        margin-left: 50px;
+        order: 1;
+    }
+    .tech-img{
+        min-height: 60vh;
+        max-height: 60vh;
+        width: 30vw;
+    }
+    picture{
+        order: 2;
+    }
+    
+}
