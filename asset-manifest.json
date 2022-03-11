@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/space-tourism/static/css/main.2a61b430.css",
+    "main.js": "/space-tourism/static/js/main.dc781647.js",
+    "static/js/787.bf6be71c.chunk.js": "/space-tourism/static/js/787.bf6be71c.chunk.js",
+    "index.html": "/space-tourism/index.html",
+    "static/media/icon-close.svg": "/space-tourism/static/media/icon-close.d47fda63cbd8b3fedbbc.svg",
+    "static/media/icon-hamburger.svg": "/space-tourism/static/media/icon-hamburger.5273efa7c50e96ef3e51.svg",
+    "main.2a61b430.css.map": "/space-tourism/static/css/main.2a61b430.css.map",
+    "main.dc781647.js.map": "/space-tourism/static/js/main.dc781647.js.map",
+    "787.bf6be71c.chunk.js.map": "/space-tourism/static/js/787.bf6be71c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2a61b430.css",
+    "static/js/main.dc781647.js"
+  ]
+}
