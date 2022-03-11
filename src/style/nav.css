@@ -12,7 +12,7 @@ nav{
     flex-direction: column;
     gap: 40px;
     padding: 140px 0px 30px 70px;
-    align-items: start;
+    align-items: flex-start;
     width: 80%;
     position: absolute;
     min-height: 100vh;
