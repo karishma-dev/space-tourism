@@ -35,14 +35,16 @@ export default function Nav(){
         <nav>
       
           {/* <!-- Logo --> */}
-          <a href="#"><img src="assets/shared/logo.svg" alt="Space Logo" /></a>
+          <a href="#">
+            <img src="../assets/shared/logo.svg" alt="Space Logo" />
+          </a>
           <hr />
 
           {/* <!-- Navigation Menu --> */}
           <ul className="nav-menu">
             
             <li className="nav-item" onClick={setActiveLink}>
-              <Link to="/">
+              <Link to="/space-tourism">
                   <span className="nav-num">00</span>
                   Home
               </Link>

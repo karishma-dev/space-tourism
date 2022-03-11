@@ -1,4 +1,6 @@
 /* ======== Common Styles ======= */
+@import url("./media.css");
+
 /* Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap');
@@ -73,5 +75,3 @@ body{
     margin-left: 4vw;
     margin-top: 50px;
 }
-
-@import url("./media.css");

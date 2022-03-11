@@ -14,11 +14,10 @@ export default function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route path='/' element={ <Homepage /> } />
-          
-          <Route path='Destination' element={ <Destination /> } />
-          <Route path='Crew' element={ <Crew /> } />
-          <Route path='Technology' element={ <Technology /> } />
+          <Route exact path='/space-tourism' element={ <Homepage /> }></Route>
+          <Route exact path='/destination' element={ <Destination /> }></Route>
+          <Route exact path='/crew' element={ <Crew /> }></Route>
+          <Route exact path='/technology' element={ <Technology /> }></Route>
         </Routes>
       </div>
     </Router>
