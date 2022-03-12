@@ -22,9 +22,12 @@ Users should be able to:
 - See hover states for all interactive elements on the page
 - View each page and be able to toggle between the tabs to see new information
 
-### Screenshot
+### Screenshots
 
-![](./screenshot.jpg)
+![](../space-tourism/src/assets/screenshot/screenshot1.png)
+![](../space-tourism/src/assets/screenshot/screenshot2.png)
+![](../space-tourism/src/assets/screenshot/screenshot3.png)
+![](../space-tourism/src/assets/screenshot/screenshot4.png)
 
 ### Links
 
