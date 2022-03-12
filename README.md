@@ -24,10 +24,10 @@ Users should be able to:
 
 ### Screenshots
 
-![](../space-tourism/src/assets/screenshot/screenshot1.png)
-![](../space-tourism/src/assets/screenshot/screenshot2.png)
-![](../space-tourism/src/assets/screenshot/screenshot3.png)
-![](../space-tourism/src/assets/screenshot/screenshot4.png)
+![](./screenshot/screenshot1.png)
+![](./screenshot/screenshot2.png)
+![](./screenshot/screenshot3.png)
+![](./screenshot/screenshot4.png)
 
 ### Links
 
