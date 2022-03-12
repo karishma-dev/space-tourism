@@ -3,6 +3,11 @@ import Subheading from "./Subheading";
 import {useState,useEffect} from "react";
 import background from "./background";
 import "../style/crew.css";
+import Image from "./Image";
+import douglas from "../assets/crew/image-douglas-hurley.png";
+import mark from "../assets/crew/image-mark-shuttleworth.png";
+import victor from "../assets/crew/image-victor-glover.png";
+import ansari from "../assets/crew/image-anousheh-ansari.png";
 
 // Data
 const data = require("../data.json");
@@ -31,6 +36,18 @@ export default function Crew(){
         list[crewId].classList.add("active-dot");
     }, [crewId]);
     
+    const image = () => {
+        if(name === "Douglas Hurley") {
+            return douglas;
+        }else if(name === "Mark Shuttleworth"){
+            return mark;
+        }else if(name === "Victor Glover"){
+            return victor;
+        }else{
+            return ansari;
+        }
+    }
+    
     return(
 
         // Container
@@ -56,7 +73,7 @@ export default function Crew(){
                 </div>
 
                 {/* Crew Image */}
-                <img src={images.png} alt={name} />
+                <Image im={image()} name ={name} />
 
             </div>
 

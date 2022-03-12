@@ -3,6 +3,12 @@ import Subheading from "./Subheading";
 import {useState, useEffect} from "react";
 import "../style/technology.css";
 import background from "./background";
+import launchPortrait from "../assets/technology/image-launch-vehicle-portrait.jpg";
+import spaceportPortrait from "../assets/technology/image-spaceport-portrait.jpg";
+import spacePortrait from "../assets/technology/image-space-capsule-portrait.jpg";
+import launchLand from "../assets/technology/image-launch-vehicle-landscape.jpg";
+import spaceportLand from "../assets/technology/image-spaceport-landscape.jpg";
+import spaceLand from "../assets/technology/image-space-capsule-landscape.jpg";
 
 // Data
 const data = require("../data.json");
@@ -31,6 +37,22 @@ export default function Technology(){
         list[technologyId].classList.add("active-dot");
     }, [technologyId]);
     
+    const image = () => {
+        let a =[];
+        if(name === "Launch vehicle") {
+            a.push(launchLand);
+            a.push(launchPortrait)
+            return a;
+        }else if(name === "Spaceport"){
+            a.push(spaceportLand);
+            a.push(spaceportPortrait)
+            return a;
+        }else if(name === "Space capsule"){
+            a.push(spaceLand);
+            a.push(spacePortrait)
+            return a;
+        }
+    }
 
     return(
         // Technology
@@ -63,14 +85,20 @@ export default function Technology(){
                 </div>
 
                 {/* Technology Image */}
-                <picture>
-                    <source media="(max-width: 1200px)" srcSet={images.landscape} className="tech-img" />
-                    <source media="(min-width: 1201px)" srcSet={images.portrait} className="tech-img" />
-                    <img src={images.portrait} alt={name} className="tech-img" />
-                </picture>
+                <Picture mobile ={image()[0]} desktop ={image()[1]} name={name} />
 
             </div>
 
         </div>
     );
+}
+
+function Picture({mobile, desktop, name}){
+    return (
+        <picture>
+            <source media="(max-width: 1200px)" srcSet={mobile} className="tech-img" />
+            <source media="(min-width: 1201px)" srcSet={desktop} className="tech-img" />
+            <img src={desktop} alt={name} className="tech-img" />
+        </picture>
+    )
 }

@@ -1,6 +1,7 @@
 // Import Statements
 import "../style/nav.css";
 import { Link } from "react-router-dom";
+import logo from "../assets/shared/logo.svg";
 
 // Navigation Component
 export default function Nav(){
@@ -36,7 +37,7 @@ export default function Nav(){
       
           {/* <!-- Logo --> */}
           <a href="#">
-            <img src="../assets/shared/logo.svg" alt="Space Logo" />
+            <img src={logo} alt="Space Logo" />
           </a>
           <hr />
 
@@ -44,7 +45,7 @@ export default function Nav(){
           <ul className="nav-menu">
             
             <li className="nav-item" onClick={setActiveLink}>
-              <Link to="/space-tourism">
+              <Link to="/">
                   <span className="nav-num">00</span>
                   Home
               </Link>

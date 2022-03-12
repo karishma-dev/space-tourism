@@ -3,6 +3,11 @@ import Subheading from "./Subheading";
 import {useState,useEffect} from "react";
 import background from "./background";
 import "../style/destination.css";
+import moon from "../assets/destination/image-moon.png";
+import mars from "../assets/destination/image-mars.png";
+import europa from "../assets/destination/image-europa.png";
+import titan from "../assets/destination/image-titan.png";
+import Image from "./Image";
 
 // Data
 const data = require("../data.json");
@@ -32,6 +37,18 @@ export default function Destination(){
         list[destinationId].classList.add("active");
     }, [destinationId]);
 
+    const image = () => {
+        if(name === "Moon") {
+            return moon;
+        }else if(name === "Mars"){
+            return mars;
+        }else if(name === "Europa"){
+            return europa;
+        }else{
+            return titan;
+        }
+    }
+    
     return(
 
         // Container
@@ -44,7 +61,7 @@ export default function Destination(){
             <div className="destination">
 
                 {/* Destination Image */}
-                <img src={images.png} alt={name}/>
+                <Image im={image()} name={name} />
 
                 {/* Destination Text */}
                 <div className="destination-text">
