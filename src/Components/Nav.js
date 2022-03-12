@@ -29,19 +29,19 @@ export default function Nav(){
       Array.from(links).forEach(el => el.classList.remove("active"));
       e.target.classList.add("active");
     };
-
+    
     return (
 
-        // <!-- Navigation Bar -->
+        // Navigation Bar
         <nav>
       
-          {/* <!-- Logo --> */}
+          {/* Logo */}
           <a href="#">
             <img src={logo} alt="Space Logo" />
           </a>
           <hr />
 
-          {/* <!-- Navigation Menu --> */}
+          {/* Navigation Menu */}
           <ul className="nav-menu">
             
             <li className="nav-item" onClick={setActiveLink}>
