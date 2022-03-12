@@ -45,7 +45,7 @@ export default function Nav(){
           <ul className="nav-menu">
             
             <li className="nav-item" onClick={setActiveLink}>
-              <Link to="/">
+              <Link to="/space-tourism/">
                   <span className="nav-num">00</span>
                   Home
               </Link>

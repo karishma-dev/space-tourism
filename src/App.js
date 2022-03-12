@@ -14,7 +14,7 @@ export default function App() {
       <div className="App">
         <Nav />
         <Routes>
-          <Route exact path='/' element={ <Homepage /> }></Route>
+          <Route exact path='/space-tourism/' element={ <Homepage /> }></Route>
           <Route exact path='/destination' element={ <Destination /> }></Route>
           <Route exact path='/crew' element={ <Crew /> }></Route>
           <Route exact path='/technology' element={ <Technology /> }></Route>
