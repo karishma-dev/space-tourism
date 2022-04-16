@@ -43,5 +43,22 @@ h1{
     left: 50%;
     transform: translate(-50%);
     margin: 50px 0 30px;
+    cursor: pointer;
 }
-
+.explore-btn::after{
+    content: "";
+    /* width: 330px; */
+    /* height: 330px; */
+    width: 0px;
+    height: 0px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.25);
+    position: absolute;
+    display: block;
+    top: -27px;
+    left: -27px;
+}
+.explore-btn:hover::after{
+    width: 260px;
+    height: 250px;
+}

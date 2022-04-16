@@ -147,8 +147,6 @@ body{
         padding: 40px 0px;
     }
     .nav-menu{
-        background: rgba(255, 255, 255, 0.04);
-        backdrop-filter: blur(81.5485px);
         display: flex;
         gap: 30px;
         align-items: center;
@@ -217,6 +215,12 @@ body{
         position: absolute;
         left: 70vw;
         top: 50%;
+    }
+    .explore-btn:hover::after{
+        width: 320px;
+        height: 310px;
+        top: -40px;
+        left: -35px;
     }
 
     /* =========== Destination =========== */

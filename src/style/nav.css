@@ -6,8 +6,7 @@ nav{
     justify-content: space-between;
 }
 .nav-menu{
-    background: rgba(255, 255, 255, 0.04);
-    backdrop-filter: blur(81.5485px);
+    background-color: hsl(230, 35%, 7%);
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -21,6 +20,12 @@ nav{
     transition: 0.4s right ease-in-out;
     z-index: 2;
     min-width: 290px;
+}
+@supports (backdrop-filter: blur(81.5485px)){
+    .nav-menu{
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(81.5485px);
+    }
 }
 .nav-menu.active{
     left: 20vw;
