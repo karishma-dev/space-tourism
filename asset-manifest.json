@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/space-tourism/static/css/main.e3948f35.css",
+    "main.css": "/space-tourism/static/css/main.7cfb7e1f.css",
     "main.js": "/space-tourism/static/js/main.ea67efa8.js",
     "static/js/787.bf6be71c.chunk.js": "/space-tourism/static/js/787.bf6be71c.chunk.js",
     "static/media/image-victor-glover.png": "/space-tourism/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
@@ -31,12 +31,12 @@
     "static/media/logo.svg": "/space-tourism/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
     "static/media/icon-close.svg": "/space-tourism/static/media/icon-close.d47fda63cbd8b3fedbbc.svg",
     "static/media/icon-hamburger.svg": "/space-tourism/static/media/icon-hamburger.5273efa7c50e96ef3e51.svg",
-    "main.e3948f35.css.map": "/space-tourism/static/css/main.e3948f35.css.map",
+    "main.7cfb7e1f.css.map": "/space-tourism/static/css/main.7cfb7e1f.css.map",
     "main.ea67efa8.js.map": "/space-tourism/static/js/main.ea67efa8.js.map",
     "787.bf6be71c.chunk.js.map": "/space-tourism/static/js/787.bf6be71c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3948f35.css",
+    "static/css/main.7cfb7e1f.css",
     "static/js/main.ea67efa8.js"
   ]
 }
