@@ -80,3 +80,53 @@
     font-size: 20px;
   }
 }
+
+/* Payments CSS */
+
+/* Payments Container */
+.payments-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #1c2331;
+  color: #fff;
+}
+
+/* Payments Title */
+.payments-title {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Payments Info */
+.payments-info {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Payment Options (flexbox for layout) */
+.payment-options {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Crypto Payment Section */
+.crypto-payment {
+  width: 45%; /* Adjust the width as needed */
+}
+
+/* Card Payment Section */
+.card-payment {
+  width: 45%; /* Adjust the width as needed */
+}
+
+/* Styles for the card payment form (you can keep your existing styles here) */
+.payments-form {
+  /* Your existing form styles */
+}
+
+/* Payments CSS */

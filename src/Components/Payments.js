@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./payments.css";
+import Form from "./Form";
 const data = require("../data.json");
 
 const Payments = () => {
@@ -57,41 +58,54 @@ const Payments = () => {
         <h2>Provider: {selectedProvider.name}</h2>
         <h2>Price: {selectedProvider.price}</h2>
       </div>
-      <form className="payments-form" onSubmit={handlePaymentSubmit}>
-        <label className="payments-label">
-          Card Number:
-          <input
-            className="payments-input"
-            type="text"
-            value={cardNumber}
-            onChange={handleCardNumberChange}
-            required
-          />
-        </label>
-        <label className="payments-label">
-          Expiry Date:
-          <input
-            className="payments-input"
-            type="text"
-            value={expiryDate}
-            onChange={handleExpiryDateChange}
-            required
-          />
-        </label>
-        <label className="payments-label">
-          CVV:
-          <input
-            className="payments-input"
-            type="text"
-            value={cvv}
-            onChange={handleCvvChange}
-            required
-          />
-        </label>
-        <button className="payments-button" type="submit">
-          Pay Now
-        </button>
-      </form>
+      <div className="payment-options">
+        {/* Pay with Crypto Section */}
+        <div className="crypto-payment">
+          <h2>Pay with Crypto</h2>
+          <Form />
+          {/* Add your crypto payment form here */}
+        </div>
+
+        {/* Pay with Card Section */}
+        <div className="card-payment">
+          <h2>Pay with Card</h2>
+          <form className="payments-form" onSubmit={handlePaymentSubmit}>
+            <label className="payments-label">
+              Card Number:
+              <input
+                className="payments-input"
+                type="text"
+                value={cardNumber}
+                onChange={handleCardNumberChange}
+                required
+              />
+            </label>
+            <label className="payments-label">
+              Expiry Date:
+              <input
+                className="payments-input"
+                type="text"
+                value={expiryDate}
+                onChange={handleExpiryDateChange}
+                required
+              />
+            </label>
+            <label className="payments-label">
+              CVV:
+              <input
+                className="payments-input"
+                type="text"
+                value={cvv}
+                onChange={handleCvvChange}
+                required
+              />
+            </label>
+            <button className="payments-button" type="submit">
+              Pay Now
+            </button>
+          </form>
+        </div>
+      </div>
     </div>
   );
 };
