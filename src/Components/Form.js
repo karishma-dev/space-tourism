@@ -1,6 +1,7 @@
 // components/Form.js
 import React, { useState } from "react";
 import FileSelector from "./FileSelector";
+import mintToken from "../flow/transaction/MintToken.tx";
 
 // Collect the information of a pet and manage as a state
 // and mint the NFT based on the information.
@@ -23,12 +24,20 @@ const Form = () => {
     const age = event.target.value;
     setPet({ ...pet, age });
   };
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+    try {
+      await mintToken(pet);
+    } catch (err) {
+      console.error(err);
+    }
+  };
 
   return (
     <div style={style}>
       <form>
         <div className="row">
-          <FileSelector pet={pet} setPet={setPet} />
+          <FileSelector pet={pet} setPet={setPet} onSubmit={handleSubmit} />
           <div>
             <label for="nameInput">Pet's name</label>
             <input

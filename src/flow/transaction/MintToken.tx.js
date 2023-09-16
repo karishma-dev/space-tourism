@@ -70,3 +70,18 @@ function toCadenceDict(pet) {
   // Return an array of [{key: string, value: string}].
   return Object.keys(newPet).map((k) => ({ key: k, value: pet[k] }));
 }
+// This is a fallible function.
+async function mintToken(pet) {
+  // The metadata contains the attribute `url` which is an IFPS URL
+  // pointing to the data.json.
+  const { url } = await uploadToStorage(pet);
+
+  // We want to include the IPFS URL to the blockchain, so we can
+  // "unpack" the token data when we query it later. So we create
+  // a new object with all of the pet's attributes plus `url`.
+  const txId = await mintPet({ ...pet, url });
+  return txId;
+}
+
+// Don't forget to export the function.
+export default mintToken;
