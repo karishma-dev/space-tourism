@@ -2,7 +2,6 @@
 import React, { useState } from "react";
 import { useLocation } from "react-router-dom";
 import "./providers.css";
-import { Link } from "react-router-dom";
 const data = require("../data.json");
 
 const Providers = () => {
@@ -20,6 +19,7 @@ const Providers = () => {
   };
 
   return (
+    <div className="providers-data">
     <div className="providers-container">
       {/* Large White Header */}
       <div className="header">
@@ -48,16 +48,20 @@ const Providers = () => {
             <p className="provider-description">{provider.description}</p>
             <div className="provider-cost-and-book">
               <p className="provider-cost">{provider.cost[selectedTime]}</p>
-              <Link
-                to={`/payments?d=${destination}&p=${index}&t=${selectedTime}`}
-              >
-                <button className="provider-book-button">Book Travel</button>
-              </Link>
+              <button className="provider-book-button">Book Travel</button>
             </div>
           </div>
         ))}
       </div>
     </div>
+    <div className="provider-ads">
+        <img
+              src={process.env.PUBLIC_URL + "/" + destination + ".png"}
+              alt={destination}
+              className="provider-ad"
+            />
+      </div>
+</div>
   );
 };
 
