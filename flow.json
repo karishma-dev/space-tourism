@@ -10,5 +10,15 @@
 			"address": "f8d6e0586b0a20c7",
 			"key": "1d6e8f6c28c970e2276d9aeb7845a7100e5a8b7693f5c6a309b4707884ec0d1b"
 		}
+	},
+	"contracts": {
+		"Space": "./src/flow/contract/Space.cdc"
+	},
+	"deployments": {
+		"emulator": {
+			"emulator-account": [
+				"Space"
+			]
+		}
 	}
 }
