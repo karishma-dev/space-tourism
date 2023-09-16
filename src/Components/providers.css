@@ -1,0 +1,154 @@
+/* Providers CSS */
+
+/* Providers Container */
+.providers-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #1c2331;
+  color: #fff;
+}
+
+/* Header */
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.header-title {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Provider Cards */
+.provider-cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 20px;
+}
+
+.provider-card {
+  width: calc(50% - 40px);
+  background-color: #212f3d;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.provider-card .provider-logo {
+  width: 50%;
+  height: auto;
+}
+
+.provider-card h3 {
+  font-size: 24px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.provider-description {
+  color: #d0d6f9;
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.provider-cost {
+  font-size: 22px;
+  font-weight: 700;
+  color: #f1c40f;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 800px) {
+  .provider-card {
+    width: 100%;
+  }
+}
+/* Providers CSS */
+
+/* Styles for the cost and booking button */
+.provider-cost-and-book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.provider-cost {
+  font-size: 22px;
+  font-weight: 700;
+  color: #f1c40f;
+}
+
+.provider-book-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button Hover State */
+.provider-book-button:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
+
+/* Providers CSS */
+
+/* Dropdown Styles */
+.header select {
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+/* Styles for the cost and booking button */
+.provider-cost-and-book {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.provider-cost {
+  font-size: 22px;
+  font-weight: 700;
+  color: #f1c40f;
+}
+
+.provider-book-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button Hover State */
+.provider-book-button:hover {
+  background-color: #0056b3;
+  color: #ffffff;
+}
