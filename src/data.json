@@ -16,7 +16,7 @@
         {
           "name": "Provider 1",
           "description": "Description of Provider 1",
-          "logo": "provider1-logo.jpg",
+          "logo": "logo.png",
           "cost": {
             "now": "$100,000",
             "in_50_years": "$65,000",

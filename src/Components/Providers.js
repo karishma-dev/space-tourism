@@ -39,7 +39,7 @@ const Providers = () => {
         {providersData.map((provider, index) => (
           <div key={index} className="provider-card">
             <img
-              src={provider.logo}
+              src={process.env.PUBLIC_URL + "/" + provider.logo}
               alt={provider.name}
               className="provider-logo"
             />
