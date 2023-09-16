@@ -12,7 +12,28 @@
         "in_50_years": "$1,000",
         "in_200_years": "$100"
       },
-      "providers": []
+      "providers": [
+        {
+          "name": "Provider 1",
+          "description": "Description of Provider 1",
+          "logo": "provider1-logo.jpg",
+          "cost": {
+            "now": "$100,000",
+            "in_50_years": "$65,000",
+            "in_200_years": "$30,000"
+          }
+        },
+        {
+          "name": "Provider 2",
+          "description": "Description of Provider 2",
+          "logo": "provider2-logo.jpg",
+          "cost": {
+            "now": "$120,000",
+            "in_50_years": "$75,000",
+            "in_200_years": "$40,000"
+          }
+        }
+      ]
     },
     {
       "name": "Lower Earth Orbit",
