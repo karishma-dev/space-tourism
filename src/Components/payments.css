@@ -1,0 +1,82 @@
+/* payments.css */
+
+/* Payments Container */
+.payments-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #1c2331;
+  color: #fff;
+}
+
+/* Payments Title */
+.payments-title {
+  font-size: 3em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+/* Payments Info */
+.payments-info {
+  margin-top: 20px;
+}
+
+.payments-info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+/* Payments Form */
+.payments-form {
+  width: 100%;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.payments-label {
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.payments-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  background-color: #212f3d;
+  color: #fff;
+}
+
+/* Payments Button */
+.payments-button {
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+/* Button Hover State */
+.payments-button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 800px) {
+  .payments-info h2 {
+    font-size: 20px;
+  }
+}

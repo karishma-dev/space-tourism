@@ -3,6 +3,7 @@ import Nav from "./Components/Nav";
 import Homepage from "./Components/Homepage";
 import Destination from "./Components/Destination";
 import Providers from "./Components/Providers";
+import Payments from "./Components/Payments";
 import "./style/common.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
@@ -16,6 +17,7 @@ export default function App() {
           <Route exact path="/" element={<Homepage />}></Route>
           <Route exact path="/destination" element={<Destination />}></Route>
           <Route path="/providers" element={<Providers />}></Route>
+          <Route path="/payments" element={<Payments />}></Route>
         </Routes>
       </div>
     </Router>
