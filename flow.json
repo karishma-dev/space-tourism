@@ -1,4 +1,7 @@
 {
+	"contracts": {
+		"Space": "./src/flow/contract/Space.cdc"
+	},
 	"networks": {
 		"emulator": "127.0.0.1:3569",
 		"mainnet": "access.mainnet.nodes.onflow.org:9000",
@@ -9,10 +12,11 @@
 		"emulator-account": {
 			"address": "f8d6e0586b0a20c7",
 			"key": "1d6e8f6c28c970e2276d9aeb7845a7100e5a8b7693f5c6a309b4707884ec0d1b"
+		},
+		"test": {
+			"address": "01cf0e2f2f715450",
+			"key": "7396abd5943353e3d54daa6116eaaf4824842e940fecb583a35f860e9313dce1"
 		}
-	},
-	"contracts": {
-		"Space": "./src/flow/contract/Space.cdc"
 	},
 	"deployments": {
 		"emulator": {
