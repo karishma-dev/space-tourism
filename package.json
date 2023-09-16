@@ -1,7 +1,7 @@
 {
   "name": "space-tourism",
   "version": "0.1.0",
-  "homepage": "http://Krrish105.github.io/space-tourism",
+  "homepage": "",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",

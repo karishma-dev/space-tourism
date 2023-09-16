@@ -26,15 +26,7 @@ export default function Destination() {
   // Data of Destination from data
   const { name, images, description, travel } =
     data.destinations[destinationId];
-  let avgCost = 0;
-  if (data.destinations[destinationId].providers.length) {
-    avgCost =
-      data.destinations[destinationId].providers.reduce(
-        (acc, provider) =>
-          acc + Number(provider.cost[timePeriod].replace(/[^0-9.-]+/g, "")),
-        0
-      ) / data.destinations[destinationId].providers.length;
-  }
+  let avgCost = data.destinations[destinationId].cost[timePeriod];
 
   // Function to change time period cost and destinationId
   const changeTimePeriod = (event) => {
@@ -90,7 +82,7 @@ export default function Destination() {
           <div className="destination-info">
             <div className="avg-cost">
               <h4>Average Cost</h4>
-              <span>${avgCost.toFixed(2)} </span>
+              <span>{avgCost} </span>
               <select onChange={changeTimePeriod}>
                 <option value="now">Now</option>
                 <option value="in_50_years">In 50 Years</option>
