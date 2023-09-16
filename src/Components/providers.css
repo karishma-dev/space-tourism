@@ -1,14 +1,21 @@
 /* Providers CSS */
 
 /* Providers Container */
-.providers-container {
-  width: 100%;
+
+.providers-data{
+  display : flex;
+  vertical-align: Middle;
+  flex-direction : row;
+}
+
+.providers-data providers-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px;
   background-color: #1c2331;
   color: #fff;
+  float: left;
 }
 
 /* Header */
@@ -32,6 +39,19 @@
   flex-wrap: wrap;
   width: 100%;
   padding: 20px;
+}
+
+.provider-ads {
+  justify-content: center;
+  display: flex;
+  align-items:center;
+  max-width: 20%
+}
+
+.provider-ad {
+  position:relative;
+  width:100%;
+  border: 2px solid #555;
 }
 
 .provider-card {
