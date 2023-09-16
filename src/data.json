@@ -5,7 +5,7 @@
       "images": {
         "png": "../assets/destination/earth.png"
       },
-      "description": "Experience the thrill of first hand astronaut experience with a trip to the edge of space. This 3 hour trip will let you see the earth from above and gaze upon the cosmos.",
+      "description": "The best way to get around Earth",
       "travel": "15 Minutes",
       "cost": {
         "now": "$500,000",
@@ -14,23 +14,23 @@
       },
       "providers": [
         {
-          "name": "Provider 1",
-          "description": "Description of Provider 1",
-          "logo": "logo.png",
+          "name": "Panoptes",
+          "description": "Panoptes offers the fastest solution for within-Earth travel. Although more expensive than a plane, Panoptes suborbital travel will get you to your destination at rapid speeds, while providing some of the best views within-Earth travel has to offer.",
+          "logo": "provider1-logo.jpg",
           "cost": {
-            "now": "$100,000",
-            "in_50_years": "$65,000",
-            "in_200_years": "$30,000"
+            "now": "$300,000",
+            "in_50_years": "$600",
+            "in_200_years": "$60"
           }
         },
         {
-          "name": "Provider 2",
-          "description": "Description of Provider 2",
+          "name": "Reladyne",
+          "description": "Book luxury private journeys for you and your friends through Relaydne. With private servants, exquisite food, and on-board bathrooms and bedrooms, there is a reason why Reladyne is known as the most luxurious way to travel.",
           "logo": "provider2-logo.jpg",
           "cost": {
-            "now": "$120,000",
-            "in_50_years": "$75,000",
-            "in_200_years": "$40,000"
+            "now": "$500,000",
+            "in_50_years": "$1,000",
+            "in_200_years": "$100"
           }
         }
       ]
@@ -40,56 +40,140 @@
       "images": {
         "png": "../assets/destination/image-iss.png"
       },
-      "description": "Visit the International Space Station and experience life on board the ISS. This trip will let you see the earth from above and gaze upon the cosmos.",
+      "description": "A quick break from the tedium of everyday life",
       "travel": "1 day",
       "cost": {
         "now": "$55,000,000",
         "in_50_years": "$500,000",
         "in_200_years": "$50,000"
       },
-      "providers": []
+      "providers": [
+        {
+          "name": "Horizon",
+          "description": "Traveling with Horizon is a perfect option for a fantastic day-trip into the lower Earth orbit. Get the iconic views of Earth you all know and love, while listening to the latest hits and dining on delicious in-flight meals.",
+          "logo": "provider1-logo.jpg",
+          "cost": {
+            "now": "$62,000,000",
+            "in_50_years": "$500,000",
+            "in_200_years": "$50,000"
+          }
+        },
+        {
+          "name": "Lightscythe",
+          "description": "Lightscythe offers a fantastic experience for those who love seeing what humanity has made. See the beautiful lights created by Earth's most iconic cities, all while given a guided tour explaining the fascinating history behind humanity and space travel. ",
+          "logo": "provider2-logo.jpg",
+          "cost": {
+            "now": "$55,000,000",
+            "in_50_years": "$100,000",
+            "in_200_years": "$10,000"
+          }
+        }
+      ]
     },
     {
       "name": "Moon",
       "images": {
         "png": "../assets/destination/image-moon.png"
       },
-      "description": "See our planet as youâ€™ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While youâ€™re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.",
+      "description": "A beautiful and historic landmark for one of humanity's greatest achievements",
       "travel": "3 days",
       "cost": {
         "now": "$74,700,000",
         "in_50_years": "$45,000,000",
         "in_200_years": "$4,500,000"
       },
-      "providers": []
+      "providers": [
+        {
+          "name": "Nautilus",
+          "description": "Explore both the beautiful environment and history behind what was once the greatest accomplishment known to man-kind: the moon landing. With moon traveling recommendations, presentations made by world-renown astronauts, Nautilus makes sure you travel to the moon comfortable and prepared for the arrival.",
+          "logo": "provider1-logo.jpg",
+          "cost": {
+            "now": "$80,000,000",
+            "in_50_years": "$52,000,000",
+            "in_200_years": "$5,200,000"
+          }
+        },
+        {
+          "name": "Nova Galactic",
+          "description": "Since the moon is one of the most popular destinations, you can always rely on Nova Galactic to have numerous flight available. Whether you are planning months in advance or booking a trip for the next day, Nova Galactic's enormous space fleet will reliably provide a journey at the most convient time for you.",
+          "logo": "provider2-logo.jpg",
+          "cost": {
+            "now": "$74,700,000",
+            "in_50_years": "$45,000,000",
+            "in_200_years": "$4,500,000"
+          }
+        }
+      ]
     },
     {
       "name": "Mars",
       "images": {
         "png": "../assets/destination/image-mars.png"
       },
-      "description": "Donâ€™t forget to pack your hiking boots. Youâ€™ll need them to tackle Olympus Mons, the tallest planetary mountain in our solar system. Itâ€™s two and a half times the size of Everest!",
+      "description": "10th year in a row for the most beautiful livable planet",
       "travel": "9 months",
       "cost": {
         "now": "$149,200,000",
         "in_50_years": "$550,000",
         "in_200_years": "$110,000"
       },
-      "providers": []
+      "providers": [
+        {
+          "name": "Hope Tech",
+          "description": "Hope Tech is one of the founding commercial space travel agencies. What was once a hope among a small group of scientists, has become a dream come true for millions of people world wide. Get the experience of exploring Mars as if you were the first ones landing on it.",
+          "logo": "provider1-logo.jpg",
+          "cost": {
+            "now": "$155,600,000",
+            "in_50_years": "$95,000,000",
+            "in_200_years": "$9,500,000"
+          }
+        },
+        {
+          "name": "Sextant Systems",
+          "description": "Sextant Systems is a quick and easy option for travel to Mars. Although cheap, Sextant Systems has been providing a reliable commerical service for millions of young explorers who want to explore the solar system on a budget.",
+          "logo": "provider2-logo.jpg",
+          "cost": {
+            "now": "$149,400,000",
+            "in_50_years": "$90,000,000",
+            "in_200_years": "$9,000,000"
+          }
+        },
+        {
+          "name": "Deimos",
+          "description": "Deimos is a firm believer that one of the most important parts of traveling is the journey. In line with this philosophy, Deimos takes you on a longer, but much more beautiful and exhilarating journey. ",
+          "logo": "provider2-logo.jpg",
+          "cost": {
+            "now": "$180,000,000",
+            "in_50_years": "$100,000,000",
+            "in_200_years": "$10,000,000"
+          }
+        }
+      ]
     },
     {
       "name": "Titan",
       "images": {
         "png": "../assets/destination/image-titan.png"
       },
-      "description": "The only moon known to have a dense atmosphere other than Earth, Titan is a home away from home (just a few hundred degrees colder!). As a bonus, you get striking views of the Rings of Saturn.",
+      "description": "A once in a lifetime experience to explore the edges of human settlement",
       "travel": "7 years",
       "cost": {
-        "now": "$10,000,000",
-        "in_50_years": "$2,500,000",
-        "in_200_years": "$500,000"
+        "now": "$2,091,600,000",
+        "in_50_years": "$1,260,000,000",
+        "in_200_years": "$126,000,000"
       },
-      "providers": []
+      "providers": [
+        {
+          "name": "Amun Dunn",
+          "description": "If you have the budget, journeying to Titan is a once in a lifetime experience. With fine dining, luxury equipment, and loads of in-flight entertainment, Amun Dunn is the perfect option for traveling in style and comfort.",
+          "logo": "provider1-logo.jpg",
+          "cost": {
+            "now": "$2,091,600,000",
+            "in_50_years": "$1,260,000,000",
+            "in_200_years": "$126,000,000"
+          }
+        }
+      ]
     }
   ]
 }
