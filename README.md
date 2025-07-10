@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/Krrish105/space-tourism](https://github.com/Krrish105/space-tourism)
-- Live Site URL: [http://Krrish105.github.io/space-tourism](http://Krrish105.github.io/space-tourism)
+- Solution URL: [https://github.com/karishma-dev/space-tourism](https://github.com/karishma-dev/space-tourism)
+- Live Site URL: [https://karishma-dev.github.io/space-tourism](https://karishma-dev.github.io/space-tourism)
 
 ## My process
 
@@ -47,7 +47,7 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [Krrish105](https://www.frontendmentor.io/profile/Krrish105)
+- Frontend Mentor - [karishma-dev](https://www.frontendmentor.io/profile/karishma-dev)
 - Twitter - [_karishma10](https://twitter.com/_karishma10)
 - LinkedIn - [Karishma Garg](https://www.linkedin.com/in/karishma-garg-)
-- Codepen - [Krrish105](https://codepen.io/krrish105)
+- Codepen - [karishma-dev](https://codepen.io/karishma-dev)
