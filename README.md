@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/karishma-dev/space-tourism](https://github.com/karishma-dev/space-tourism)
-- Live Site URL: [http://karishma-dev.github.io/space-tourism](http://karishma-dev.github.io/space-tourism)
+- Live Site URL: [https://karishma-dev.github.io/space-tourism](https://karishma-dev.github.io/space-tourism)
 
 ## My process
 
